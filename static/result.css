@@ -1,0 +1,36 @@
+body{
+	margin: 0px auto;
+	width: 300px;
+	border: 1px solid black;
+}
+
+h3{
+	text-decoration: underline;
+	font-weight: bold;
+	margin-left: 5px;
+}
+
+div{
+	display: inline-block;
+	width:45%;
+	height: auto;
+	margin:5px;
+	margin-left: 7px;
+}
+
+p{
+	margin-bottom: 5px;
+	margin-top: 0px;
+}
+
+button{
+	margin-left: 220px;
+	margin-bottom: 5px;
+}
+
+#msg{
+	text-align: center;
+	font-weight: bold;
+	color: red;
+	margin-bottom: 5px;
+}

@@ -1,0 +1,36 @@
+*{
+	margin:0px auto;
+	width:300px;
+}
+
+form{
+	border:1px solid black;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+p{
+	text-align: left;
+	margin-bottom: 3px;
+}
+
+p input,select{
+	width: 100px;
+}
+
+#name{
+	margin-left: 110px;
+}
+
+#location{
+	margin-left: 95px;
+}
+
+#language{
+	margin-left: 68px;
+}
+
+#sub{
+	margin-left: 250px;
+	width: auto;
+}

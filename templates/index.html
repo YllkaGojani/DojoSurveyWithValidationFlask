@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>home</title>
+	<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='index.css')}}">
+</head>
+<body>
+	<form action="/result" method="post">
+		<p>Your Name: <input type="text" name="name" id='name'></p>		
+		<p>Dojo location: <select name='location' id='location'>
+	      <option value="San Jose">San Jose</option>
+	      <option value="Los Angeles">Los Angeles</option>
+	      <option value="Seattle">Seattle</option>
+		</select></p>
+		<p>Favorite language: <select name="language" id="language">
+	      <option value="Javascript">Javascript</option>
+	      <option value="Python">Python</option>
+	      <option value="PHP">PHP</option>
+		</select></p>
+		<p>Comment (optional):</p><p><textarea name="comment"></textarea></p>
+		<br>
+		<input type="submit" name="Submit" id="sub">
+	</form>		
+</body>
+</html>
